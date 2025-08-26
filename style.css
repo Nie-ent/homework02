@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    background-image: url(https://images.pexels.com/photos/2078266/pexels-photo-2078266.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding-inline: 10%;
+}
+
+nav {
+    text-align: end;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+section {
+    padding: 200px;
+    height: 100vh;
+}
+
+.content {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+.sub-content {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: #ffffff98;
+    font-weight: 400;
+}
+
+
+.progress-bar {
+    width: 400px;
+    height: 10px;
+    background-color: #fff;
+    align-items: center;
+    margin: auto;
+    box-shadow: 2px 2px 16px 1px #000000;
+}
+
+.progression {
+    background-color: lightblue;
+    width: 300px;
+    height: 10px;
+}
+
+.percent {
+    padding: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.btn button {
+    padding: 10px 20px;
+    background-color: lightblue;
+    border-style: none;
+}
+
+.icon {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+
+}
+
+.fa-facebook {
+    border: 1px solid #ffffff58;
+    border-radius: 50%;
+    border-spacing: 5px;
+    color: #ffffffac;
+}
+
+.fa-twitter {
+    border: 1px solid #ffffff58;
+    border-radius: 50%;
+    border-spacing: 5px;
+    color: #ffffffac;
+
+}
+
+.fa-linkedin-in {
+    border: 1px solid #ffffff58;
+    border-radius: 50%;
+    color: #ffffffac;
+    border-spacing: 5px;
+}
+
+.fa-envelope {
+    border: 1px solid #ffffff58;
+    border-radius: 50%;
+    color: #ffffffac;
+    border-spacing: 5px;
+}
+
+footer {
+    margin-top: 190px;
+    text-align: center;
+    border-top: 1px solid #ffffff2f;
+    color: #ffffff3d;
+}
