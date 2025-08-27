@@ -87,37 +87,27 @@ section {
 .icon {
     text-align: center;
     margin-top: 2rem;
-    font-size: 2rem;
+    font-size: 1.9rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
 
 }
 
-.fa-facebook {
+
+.icon-item {
     border: 1px solid #ffffff58;
-    border-radius: 50%;
-    border-spacing: 5px;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    text-align: center;
     color: #ffffffac;
+    display: flex;
 }
 
-.fa-twitter {
-    border: 1px solid #ffffff58;
-    border-radius: 50%;
-    border-spacing: 5px;
-    color: #ffffffac;
-
-}
-
-.fa-linkedin-in {
-    border: 1px solid #ffffff58;
-    border-radius: 50%;
-    color: #ffffffac;
-    border-spacing: 5px;
-}
-
-.fa-envelope {
-    border: 1px solid #ffffff58;
-    border-radius: 50%;
-    color: #ffffffac;
-    border-spacing: 5px;
+i {
+    text-align: center;
 }
 
 footer {
